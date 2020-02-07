@@ -6,13 +6,17 @@
     </head>
     <body>
         <p id="nameDisplay">TOM</p>
-        <p id="goldDisplay">0 Gold Mined</p>
+        <p id="goldDisplay">Money</p>
         <p id="knowledgeDisplay">Knowledge Level 0</p>
         <p id="studyDisplay">Study Level 0</p>
         <p id="studyExpDisplay">Current Exp 0</p>
         <p id="studyExpNLDisplay">Next Level Exp 0</p>
-        <button onclick="buildStudySkill()">Mine Gold</button>
-        <button id="upgrade" style=display:none;>You found Me</button>
+        <button onclick="buildStudySkill()">Study</button>
+        <p id="htmlDisplay" style="display:none;" = "none">HTML Level 0</p>
+        <p id="htmlExpDisplay" style="display:none;">Current Exp 0</p>
+        <p id="htmlExpNLDisplay" style="display:none;">Next Level Exp 0</p>
+        <button id="learnHTMLBTN" style="display:none;" = "none" onclick="buildHTMLSkill()">Study Html</button>
+        <button id="upgrade" style="display:none;" = "none" onclick="learnHTML()">Learn Html</button>
         </style>
         <script src="stats.js" charset="utf-8" type="text/javascript"></script>
     </body>
